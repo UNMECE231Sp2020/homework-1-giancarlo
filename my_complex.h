@@ -7,6 +7,11 @@ struct _complex {
 
 typedef struct _complex Complex;
 
+//new changes
+void handler(Complex (*c3)(Complex, Complex),Complex c1, Complex c2);
+void handler2(double (*mag_phase2)(Complex),Complex c1);
+//
+
 void print_complex(Complex c);
 
 Complex complex_add(Complex c1, Complex c2);
